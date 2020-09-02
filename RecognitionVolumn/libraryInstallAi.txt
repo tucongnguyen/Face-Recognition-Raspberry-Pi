@@ -1,0 +1,7 @@
+﻿Cài đặt thư viện nắng nghe .
+pip install speechrecognition
+pip install pipwin
+pip install pyaudio
+
+Cài đặt thư viện nói .
+pip install pyttsx3 

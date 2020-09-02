@@ -1,0 +1,7 @@
+echo "# Face-Recognition-Raspberry-Pi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/tucongnguyen/Face-Recognition-Raspberry-Pi.git
+git push -u origin master
