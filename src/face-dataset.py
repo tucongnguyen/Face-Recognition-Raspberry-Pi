@@ -27,7 +27,7 @@ while (True):
 		cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
 		count += 1
 		#save the captured image into the datasets folder 
-		cv2.imwrite("images/leluong/" +str(face_id)+'.' +str(count)+".jpg",gray[y:y+h,x:x+w])
+		cv2.imwrite("images/congtu/" +str(face_id)+'.' +str(count)+".jpg",gray[y:y+h,x:x+w])
 	cv2.imshow('image',img)
 	k = cv2.waitKey(100) & 0xff #Press 'ESC' for exiting video
 	print ("count" ,count)
